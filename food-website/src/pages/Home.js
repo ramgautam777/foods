@@ -3,6 +3,7 @@ import Layout from '../components/layout/Layout';
 import { Link } from 'react-router-dom';
 import Banner from '../images/banner.jpeg';
 import '../styles/HomeStyles.css';
+import Contact from '../pages/Contact';
 
 
 
@@ -21,8 +22,11 @@ const Home = () => {
             </button>
             </Link>
         </div>
+      
       </div>
-    
+
+      <Contact/>
+      
     </Layout>
   )
 }
